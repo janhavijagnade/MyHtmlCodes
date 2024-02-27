@@ -1,0 +1,140 @@
+*
+{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+.wrapper
+{
+    width:70%;
+    min-height:960px;
+    border: 2px solid rgb(173, 57, 57);
+    margin: auto;
+    padding-top: 10px;
+    background-color: #59999b;
+}
+.header
+{
+    width:100%;
+    height:70px;
+    /* border: 2px solid black; */
+    /* background-color: black; */
+}
+.header .logo
+{
+    width:50%;
+    height: 50px;
+    background-color:#28836f;
+    color:rgb(224, 222, 222);
+    font-size: 35px;
+    font-family:'Times New Roman', Times, serif;
+     padding-top: 2px;
+    float:left;
+    padding-left: 16px;
+    /* border: 2px solid black; */
+}
+.header .menu
+{
+    width:50%;
+    height:50px;
+    background-color: rgb(44, 114, 114);
+    color: white;
+    font-size: 25px;
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+    padding-left: 55px;
+    padding-top:7px;
+    float:right;
+    /* border: 4px solid rgb(177, 26, 26); */
+}
+.slider
+{
+    width:100%;
+    height: 300px;
+    border: 2px solid rgb(22, 18, 18);
+}
+.slider img
+{
+    width:100%;
+    height:100%; 
+}
+.main-product
+{
+    width:100%;
+    border: 5px rgb(16, 19, 15);
+    height:270px;
+    padding-top:1px;
+    
+    background-color: rgb(44, 114, 114);
+}
+.main-product .box
+{
+    width: 47%;
+    height:270px;
+    border:1px;
+    float:left;
+}
+ .main-product .box:nth-child(2)
+{
+margin-left:2px;
+padding-top: 40px;
+padding-left:20px;
+margin-right :2pxpx;
+}
+.main-product .box:nth-child(1)
+{
+    margin-left:0;
+    width:49%;
+    padding-left:2px;
+}
+.main-product p
+{
+    font-size:25px;
+    padding-top:5px;
+    text-align: justify;
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.product
+{
+    width:100%;
+    height: 250px;
+    background-color: #28836f;
+}
+.product img
+{
+    width:50%;
+    height:250px;
+    float:right;
+}
+.product .page{
+    width:50%;
+    height:250px;  
+    padding-top:10px;
+}
+.page p{
+  font-size: 23px; 
+  float:left;
+  text-align: justify;
+  padding-left:10px;
+  padding-top:2px;
+  padding-right:10px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+.last
+{
+    width:100%;
+    height:300px;
+    border:2px solid black;
+    background-color:#052627;
+    padding-top:6px;
+}
+.last img{
+    width:100%;
+    height:300px;
+}
+.box img
+{
+    width:100%;
+    height:100%;
+}

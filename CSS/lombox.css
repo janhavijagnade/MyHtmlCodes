@@ -1,0 +1,120 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.wrapper
+{
+    width:80%;
+    min-height:500px;
+     margin: 0 auto;
+    border: 2px solid black;
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-top: 2px;
+    background-image: url(D:\UI\imgs\cakemaker.jpg);
+     /* background-color: #141113;  */
+}
+.header
+{
+    width: 100%;
+    min-height: 70px;
+    border: 2px solid black;
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-top: 2px;
+    margin-bottom: 2px;
+}
+.header .logo
+{
+    border: 2px solid black;
+    width: 48%;
+    height: 60px;
+    float: left;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: aqua;
+}
+.header .menu
+{
+    border: 2px solid black;
+    width: 48%;
+    float: right;
+    height: 60px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     padding-top: 4px;
+     padding-left: 4px;
+}
+.main
+{
+    border: 2px solid rgb(26, 8, 187);
+    width: 100%;
+    min-height:100px;
+    padding-top: 2px;
+    margin-right: 6px;
+}
+
+.mainbox
+{
+    width: 100%;
+    min-height:230px;
+    border: 2px solid rgb(230, 21, 195);
+    padding-top: 2px;
+    margin-top: 4px;
+}
+.photo
+{
+    border: 2px solid rgb(185, 17, 17);
+    width: 35%;
+    float: left;
+    margin-left: 2px;
+    padding-top: 2px;
+    min-height:220px;
+    margin-top: 2px;
+}
+.box
+{
+ border: 2px solid black;
+ width: 64%;
+ float: right;
+ margin-top: 2px;
+ margin-left: 2px;
+ min-height:220px;
+}
+.box .box1
+{
+    border: 2px solid black;
+    width:47%;
+    float:left;
+    margin-top: 2px;
+    margin-left: 7px;
+    min-height: 100px;
+}
+.box .box2
+{
+    border: 2px solid black;
+    width:45%;
+    float:right;
+    margin-top: 2px;
+    margin-left:1px;
+    margin-right: 5px;
+    min-height: 100px;   
+}
+.box .box3
+{
+    border: 2px solid rgb(175, 19, 19);  
+    min-height: 100px;
+    width: 98%;
+    margin-left: 3px;
+    margin-top:107px;
+    margin-bottom: 7px;
+}
+
+.footer
+{
+    margin-top: 4px;
+    width: 99%;
+    min-height:50px;
+     margin-top: 10px;
+    border: 2px solid black;
+
+}

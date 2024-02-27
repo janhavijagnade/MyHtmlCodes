@@ -1,0 +1,27 @@
+*
+{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+    
+
+.wrapper
+{
+    width:80%;
+    min-height:300px;
+    border: 2px solid black;
+    margin: auto;
+    background-image: url(..D:\UI\imgs\java.jpg);
+}
+/* .main
+{
+    width:100%;
+    height:350px;
+    border: 2px solid green;
+}
+.main img{
+    width: 100%;
+    height:350px;
+} */

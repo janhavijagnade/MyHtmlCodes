@@ -1,0 +1,62 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  /* background-color: aqua; */
+
+}
+.wrapper
+{
+    width: 100%;
+    min-height: 800px;
+    padding: auto;
+    border: 2px solid black;
+    
+    
+}
+.main-box
+{
+    width: 99%;
+    min-height: 500px;
+    padding: 2PX;
+    
+     background-image: url(../imgs/mainayurvedic.jpg);
+    border: 2px solid rgb(32, 180, 160);
+}
+.header
+{
+    width: 99%;
+    min-height: 100px;
+    padding: 2PX;
+    margin: 2px;
+    border: 2px solid rgb(84, 32, 180); 
+}
+.header .logo
+{
+  width: 30%;
+  min-height:65px;
+  float:left;
+  border: 2px solid rgb(201, 17, 17);
+}
+.header .main-menu
+{
+    width: 60%;
+  min-height:65px;
+  float:right;
+  border: 2px solid rgb(201, 17, 17);
+}
+.menu
+{
+    width: 65%;
+    padding: 20px;
+    float:left;
+    /* border: 2px solid black; */
+}
+  .suscribe
+  {
+    width: 30%;
+    margin: 5px;
+    padding: 6px;
+    float: right;
+    border: 2px solid black;
+  }
