@@ -1,0 +1,60 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+div{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size :2em;
+    text-shadow:none;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+.bg-1{
+    width: 100%;
+    height:100vh;
+    background-image: url(../imgs/ai2.jpg);
+}
+.bg-1 h2
+{
+    color: aliceblue;
+    font-size: 100px;
+}
+.bg-2
+{
+    width: 100%;
+    height:100vh;
+    background-image: url(../imgs/aitech1.jpg);
+}
+.bg-2 h2
+{
+    color: aliceblue;
+    font-size: 100px;
+}
+.bg-3{
+    width: 100%;
+    height:100vh;
+    background-image: url(../imgs/ayurveda1.jpg); 
+}
+.bg-3 h2
+{
+    color: aliceblue;
+    font-size: 100px;
+}
+.bg-4{
+    width: 100%;
+    height:100vh;
+    background-image: url(../imgs/bangtanboys.png); 
+}
+.bg-4 h2
+{
+    color: aliceblue;
+    font-size: 100px;
+}
