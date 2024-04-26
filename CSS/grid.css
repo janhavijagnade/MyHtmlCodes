@@ -1,0 +1,78 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.box
+{
+    width: 80%;
+    min-height: 100px;
+    margin: 10px auto;
+    border: 1px solid black;
+    display: grid;
+    grid-auto-rows: 100px;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: 60px 60px;
+    grid-gap: 5px;
+    grid-auto-rows: 100px;
+}
+.b1
+{
+    background-color: royalblue;
+            color: white;
+            grid-column: 1/-1;
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            grid-gap: 10px;
+}
+.b1 .logo
+{
+    border: 2px solid rgb(216, 211, 211);
+}
+.b1 .logo h1{
+    padding: 10px;
+}
+.b1.menu
+{
+    border: 1px solid white;
+    padding-top: 8px;
+}
+.b1 .menu ul{
+    display: flex;
+
+}
+.b1 .menu ul li{
+    list-style-type: none;
+    padding: 10px;
+}
+.b1 .menu ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+.b2
+{
+    background-color:green;
+            color: white;
+}
+.b3
+{
+    background-color:aqua;
+            color: white;
+}
+.b4
+{
+    background-color:rgb(30, 30, 58);
+    color: white;
+} 
+.b5
+{
+    background-color:pink;
+            color: white;
+}
+.b6
+{
+    background-color:chartreuse;
+    color: white;
+
+}

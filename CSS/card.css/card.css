@@ -1,0 +1,137 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+   display: flex;
+   flex-direction:column; 
+}
+.wrapper{
+    width: 60%;
+    display: flex;
+    flex-direction:column;
+    min-height: 100px;
+    margin: auto;
+}
+.main-header
+{
+ display: flex;
+ flex-direction: row;
+ justify-content: space-between;
+ width: 100%;
+ height: 60px;
+}
+.main-header .logo
+{
+    display: flex;
+    flex-basis: 40%;
+    border: 2px solid black;
+    background-image: linear-gradient(to right,#0f0c29);
+}
+.logo h2{
+    color: rgb(110, 46, 46);
+    padding: 15px;
+}
+.main-header .menu
+{
+    display: flex;
+    border: 2px solid black;
+    flex-basis: 55%;
+    background-image: linear-gradient(to right,#302b63);
+    padding-top:10px ;
+}
+.menu ul
+{
+    display: flex
+}
+.menu ul li{
+    list-style-type: none;
+    padding: 10px;
+}
+.menu ul li a{
+
+    color: rgb(117, 33, 33);
+    text-decoration: none;
+}
+.slider
+{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    margin-top: 10px;
+}
+.slider img
+{
+width: 100%;
+height: 100%;
+}
+.box
+{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 350px;
+    margin-top: 10px;
+    /* border: 2px solid rgb(62, 6, 153); */
+}
+.cards
+{
+    display: flex;
+    flex-direction:column;
+    width: 30%;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    margin-top:10px;
+}
+.cards .imgs{
+    display: flex;
+    width: 100%;
+    height: 160%;
+    border-radius: 20;
+    -webkit-border-radius: 20;
+    -moz-border-radius: 20;
+    -ms-border-radius: 20;
+    -o-border-radius: 20;
+    background-image: linear-gradient(to right,#0f0c29);
+}
+.imgs img{
+    width: 40%;
+    height: 60%;
+    margin-top: 30px;
+    margin-left: 60px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    object-fit: cover;
+}
+.cards h2{
+    padding:10px;
+    text-align: justify;
+    font-family: "Sedan",serif;
+}
+.cards p{
+    padding:10px;
+    text-align: justify;
+    font-family: "Sedan",serif;
+}
+.know_more
+{
+    width: 100px;
+    height: 30px;
+    margin-left: 50px;
+    margin-top: 10px;
+    background-color: royalblue;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
